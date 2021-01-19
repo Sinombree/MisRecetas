@@ -1,1 +1,36 @@
-/* Esta es mi primera hoja de estilos*/
+div {background-color: red;}
+div > p {background-color: greenyellow;}
+div p {background-color: blue;}
+
+.box-blue, .box-gray {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.box-blue{
+    background-color: cyan;
+}
+
+.box-gray{
+    background-color: gray;
+}
+.box{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10 px;
+    display: block;
+    border: 1px solid red;
+}
+
+.caja{
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    display:block;
+    border:2px solid black;
+}
+.line{
+    text-decoration: underline red;
+}
