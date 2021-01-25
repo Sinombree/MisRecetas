@@ -1,0 +1,43 @@
+/*.caja{
+    color: white;
+    padding: 1em;
+    border:1px solid black;
+}
+
+.caja1{
+    position: fixed;
+    top:0px;
+    width: 400px;
+    height: 50px;
+    background-color: green;
+}
+
+.caja2{
+    background-color: red;
+}
+
+.caja3{
+    background-color: gray;
+}
+
+.caja4{
+    background-color: blue;
+}*/
+
+.block{
+    display:block;
+    background-color: red;
+}
+
+.inline{
+    display:inline;
+    background-color:green;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+}

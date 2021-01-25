@@ -1,0 +1,55 @@
+div.hover{
+    background-color: red;
+    color: white;
+}
+
+div.hover:hover{
+    background-color: blue;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline red;
+    color: red
+}
+
+div.child{
+    background-color: Green;
+}
+
+.child p{
+    background-color: greenyellow;
+}
+.child p:first-child{
+    background-color: red;
+}
+.child p:last-child{
+    background-color: grey;
+}
+
+
+.margen{
+    background-color: darkblue;
+}
+
+.margen p{
+    padding-bottom: 40px;
+}
+
+.margen p:last-child{
+    padding-bottom: 0px;
+}
+
+/*:nth-child(1)=:first-child*/
+
+.nth{
+    background-color:brown;
+}
+
+.nth p:nth-child(1){
+    background-color: chartreuse;
+}

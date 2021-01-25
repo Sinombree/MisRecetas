@@ -1,0 +1,20 @@
+.padre-flex{
+display:flex;
+background-color: red;
+width: 800px;
+height: 600px;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+}
+
+.hijo-flex{
+    font-size: 200px;
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
