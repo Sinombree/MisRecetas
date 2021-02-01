@@ -1,0 +1,47 @@
+@import 'reset.css';
+@import 'basic.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+.nav-main ul{
+    display: flex;
+    color:gray;
+}
+.nav-main li{
+    margin-right: .5em;
+}
+.nav-main li:last-child{
+    margin-right: 0em;
+}
+.nav-main a:hover{
+    text-decoration: underline;
+}
+.nav-main a{
+    color:black
+}
+.separator{
+    color:black
+}
+#main{
+    display:flex;
+}
+#main section{
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main section img{
+    width: 100%;
+    height: auto;
+}
+#main section div{
+    width: 49%;
+    margin-right:5px;
+    margin-bottom: 5px;
+}
+#main aside{
+    width: 30%;
+    background-color: red;
+}
