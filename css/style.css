@@ -4,6 +4,7 @@
 @import 'footer.css';
 @import 'layout.css';
 @import 'text.css';
+@import 'grid.css';
 .nav-main ul{
     display: flex;
     color:gray;
@@ -23,25 +24,43 @@
 .separator{
     color:black
 }
-#main{
+/*.main-home{
     display:flex;
 }
-#main section{
-    width: 70%;
-    background-color: blue;
+.main-home section{
+    width: 70%;;
     display: flex;
     flex-wrap: wrap;
+    margin-left:-50px;
 }
-#main section img{
+.main-home section img{
     width: 100%;
     height: auto;
 }
-#main section div{
+.main-home section div{
     width: 49%;
     margin-right:5px;
     margin-bottom: 5px;
 }
-#main aside{
+.receta-full{
+    width: calc(50% - 5px);
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: pink;
+}
+
+.main-home aside{
     width: 30%;
+    background-color: red;
+}*/
+
+section{
+    background-color: orange;
+}
+section img{
+    width: 100%;
+    height: auto;
+}
+aside{
     background-color: red;
 }
