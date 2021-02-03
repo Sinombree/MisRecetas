@@ -5,62 +5,7 @@
 @import 'layout.css';
 @import 'text.css';
 @import 'grid.css';
-.nav-main ul{
-    display: flex;
-    color:gray;
-}
-.nav-main li{
-    margin-right: .5em;
-}
-.nav-main li:last-child{
-    margin-right: 0em;
-}
-.nav-main a:hover{
-    text-decoration: underline;
-}
-.nav-main a{
-    color:black
-}
-.separator{
-    color:black
-}
-/*.main-home{
-    display:flex;
-}
-.main-home section{
-    width: 70%;;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left:-50px;
-}
-.main-home section img{
-    width: 100%;
-    height: auto;
-}
-.main-home section div{
-    width: 49%;
-    margin-right:5px;
-    margin-bottom: 5px;
-}
-.receta-full{
-    width: calc(50% - 5px);
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: pink;
-}
-
-.main-home aside{
-    width: 30%;
-    background-color: red;
-}*/
-
-section{
-    background-color: orange;
-}
-section img{
-    width: 100%;
-    height: auto;
-}
-aside{
-    background-color: red;
-}
+@import 'heading.css';
+@import 'image.css';
+@import 'nav.css';
+@import 'utils.css'
