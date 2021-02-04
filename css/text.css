@@ -13,6 +13,22 @@
 .fnt-xl{
     font-size: 20px;
 }
+.fnt-xl2{
+    font-size: 22px;
+}
+.fnt-xl3{
+    font-size: 26px;
+}
+.fnt-xl4{
+    font-size: 32px;
+}
+.fnt-xl5{
+    font-size: 40px;
+}
+
 .txt-center{
     text-align: center
+}
+.line-normal{
+    line-height: 1.4;
 }
